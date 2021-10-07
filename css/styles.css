@@ -306,6 +306,8 @@ footer {
 #about {
   padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
+  background: url(../images/about-background.png) no-repeat;
+  background-size: 100% 100%;
 }
 #about h2 {
   color: #374054;
@@ -467,6 +469,11 @@ footer {
 .project-image {
   float: left;
 }
+.project-image img {
+  width: 300px;
+  height: 300px;
+}
+
 .project-info {
   position: absolute;
   top: 50%;
@@ -484,6 +491,7 @@ footer {
   color: #74808a;
   margin: 0 0 15px 0;
   font-size: 0.9em;
+  text-align: left;
 }
 .no-image .project-info {
   position: relative;
@@ -852,4 +860,38 @@ my-intro-box {
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+}
+
+project-info-box {
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.project-info-box ul:after {
+  clear: both;
+  height: 0;
+  display: block;
+  content: '';
+}
+
+.project-info-box ul {
+  display: flex;
+  list-style: none;
+}
+
+.project-info-box ul li {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.project-box {
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+  transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+  padding: 10px0;
+  height: 370px;
+  position: relative;
 }
