@@ -6,51 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Donghyeok Portfolio</title>
-    <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
-    <link rel="icon" href="favicon2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon2.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/styles.css?v=2" rel="stylesheet">
+    <link href="../css/styles.css?v=3" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/ca760bead7.js" crossorigin="anonymous"></script>
-    <style>
-        .mySwiper {
-            width: 500px;
-            text-align: center;
-            margin-left: 0px;
-            margin-right: 0px;
-        }
-    </style>
 </head>
 
 <body>
+    <div class="project-info-header">
+        <span>
+            <i class="fas fa-arrow-left"></i> 이전 페이지로
+        </span>
+    </div>
 
     <div class="project-info-box">
-        <ul>
-            <li>
-                <div class="project-box img-viewer">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="../images/app-main.jpg"
-                                    style="width:300px;height:400px;" /></div>
-                            <div class="swiper-slide"><img src="../images/app-receipt.jpg"
-                                    style="width:300px;height:400px;" />
-                            </div>
-                            <div class="swiper-slide"><img src="../images/project.jpg"
-                                    style="width:300px;height:400px;" /></div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
+        <div class="img-viewer app">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../images/app-main.jpg" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/app-receipt-list.jpg" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/app-receipt.jpg" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/app-receipt-2.jpg" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/app-receipt-3.jpg" />
                     </div>
                 </div>
-            </li>
-            <li>
-                <div class="project-box comments">
-                    <h2 class="heading">갤러리아 백화점 전자영수증</h2>
-                </div>
-            </li>
-        </ul>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="comments">
+            <h2 class="heading">갤러리아 백화점 전자영수증</h2>
+            <p>
+                한화 갤러리아 백화점 앱에서 사용되는 전자영수증 프로젝트에 참여하여 앱에 포함된 영수증 화면을 웹페이지로 개발하였습니다.
+
+            </p>
+        </div>
     </div>
 
     <script src="../js/jquery.min.js"></script>

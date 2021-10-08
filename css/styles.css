@@ -749,7 +749,23 @@ footer {
 @media only screen and (max-width: 768px) {
   .my-intro-box ul {
     display: block !important;
-    width: 100%;
+    width: 100% !important;
+  }
+
+  .project-info-box {
+    display: block !important;
+  }
+
+  .mySwiper {
+    width: 100% !important;
+  }
+
+  .project-info-box .img-viewer {
+    width: 100% !important;
+  }
+
+  .project-info-box .comments {
+    width: 100% !important;
   }
 }
 
@@ -765,7 +781,7 @@ footer {
 }
 
 my-intro-box {
-  width: 100%;
+  width: 95%;
   padding-bottom: 70px;
 }
 
@@ -862,36 +878,47 @@ my-intro-box {
   line-height: 30px;
 }
 
-project-info-box {
-  width: 100%;
-  padding-bottom: 70px;
-}
-
-.project-info-box ul:after {
-  clear: both;
-  height: 0;
-  display: block;
-  content: '';
-}
-
-.project-info-box ul {
-  display: flex;
-  list-style: none;
-}
-
-.project-info-box ul li {
-  flex: 1;
+.mySwiper {
+  width: 500px;
   text-align: center;
-  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.project-box {
-  display: block;
+.project-info-header {
   width: 100%;
-  border: 1px solid #ddd;
-  -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
-  transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
-  padding: 10px0;
-  height: 370px;
-  position: relative;
+  height: 50px;
+  background-color: #1d6fa5;
+  padding: 10px;
+}
+
+.project-info-header span {
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+}
+
+.project-info-header span:hover {
+  color: #e4f7ba;
+  font-size: 2rem;
+}
+
+.project-info-box {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+}
+
+.project-info-box .img-viewer {
+  width: 700px;
+}
+
+.project-info-box .img-viewer.app img {
+  width: 300px;
+  height: 400px;
+}
+
+.project-info-box .comments {
+  width: 30%;
+  padding-top: 30px;
 }
