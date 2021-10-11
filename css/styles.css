@@ -204,7 +204,7 @@ footer {
   display: inline-block;
   font-size: 2em;
   font-weight: 300;
-  margin: 0 0 30px 0;
+  margin: 0 0 0 0;
 }
 .heading:after {
   position: absolute;
@@ -306,7 +306,7 @@ footer {
 #about {
   padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
-  background: url(../images/about-background.png) no-repeat;
+  background: #00416c;
   background-size: 100% 100%;
 }
 #about h2 {
@@ -764,7 +764,15 @@ footer {
     width: 100% !important;
   }
 
-  .project-info-box .comments {
+  .project-info-box .half-comments {
+    width: 100% !important;
+  }
+
+  .full-comments {
+    padding: 5px !important;
+  }
+
+  .full-comments img {
     width: 100% !important;
   }
 }
@@ -778,6 +786,10 @@ footer {
   .my-intro-box ul li div a:hover {
     border: 1px solid #ddd;
   }
+}
+
+.sub-title {
+  color: #217dbb;
 }
 
 my-intro-box {
@@ -867,9 +879,11 @@ my-intro-box {
   border-right: 1px solid #6098ff;
 }
 
+/*
 .my-intro-box ul li div span:first-child {
   padding-top: 20px;
 }
+*/
 
 .my-intro-box ul li div span {
   display: block;
@@ -918,7 +932,15 @@ my-intro-box {
   height: 400px;
 }
 
-.project-info-box .comments {
+.project-info-box .half-comments {
   width: 30%;
   padding-top: 30px;
+}
+
+.full-comments {
+  padding: 50px;
+}
+
+.full-comments img {
+  width: 80%;
 }
