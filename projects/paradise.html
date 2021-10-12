@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donghyeok Portfolio</title>
+    <link rel="shortcut icon" href="../favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon2.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/styles.css?v=4" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/ca760bead7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="project-info-header">
+        <span>
+            <a href="https://donghyeok-dev.github.io/devportfolio/">
+                <i class="fas fa-arrow-left"></i> 이전 페이지로
+            </a>
+        </span>
+    </div>
+
+    <div class="project-info-box">
+        <div class="img-viewer app">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../images/app-main.jpg" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/app-receipt-list.jpg" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/app-receipt.jpg" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/app-receipt-2.jpg" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/app-receipt-3.jpg" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="half-comments">
+            <h2 class="heading">파라다이스 호텔 전자영수증</h2>
+            <p>
+                파라다이스 호텔에서 발급하는 전자영수증을 개발하는 프로젝트입니다.
+                <br /><br />
+                개발단계는 사내에서 진행하였고 배포 및 테스트 단계는 VPN 접속을 통해 진행하였습니다.
+                개발팀은
+                <br /><br />
+                전자영수증에서 웹 개발 항목은 아래와 같습니다.<br />
+                - 배치를 통해 고객 휴대폰으로 전자영수증 URL 문자로 전송.<br />
+                - 전자영수증 리스트 화면.<br />
+                - 전자영수증 발급 현황 달력 화면.<br />
+                - 전자영수증 상세화면.<br />
+                - 상세화면 PDF 다운로드 기능.<br />
+            </p>
+        </div>
+    </div>
+    <div class="full-comments">
+        <h2 class="heading">서버 구성 및 배포</h2>
+        <p>
+            Cent OS WEB/WAS 서버(JEUS, Java8) 1대, 운영 데이터베이스(Oracle) 서버로 구성되어 있으며, <br />
+            배포는 VPN망을 통해 SFTP로 서버에 WAR 파일을 업데이트한 뒤 Tomcat을 재기동 하였습니다.<br /><br />
+            <img src="../images/receipt-system-layout.png" />
+        </p>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">애플리케이션 구성</h2>
+        <p>
+            - Oracle Java 1.7<br />
+            - Springframework 3.2.1.RELEASE<br />
+            - JDBC<br />
+            - Mybatis<br />
+            - Maven<br />
+            - front단은 JSP 파일에 퍼블리싱된 css, js, html을 적용하고, javascript와 Jquery를 이용하여 작업.<br />
+        </p>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">인터페이스</h2>
+        <p>
+            데이터베이스에 문자 발송 정보를 INSERT하면 발송되는 형식.
+        </p>
+    </div>
+
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script language=javascript>
+
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var swiper2 = new Swiper(".mySwiper-full", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

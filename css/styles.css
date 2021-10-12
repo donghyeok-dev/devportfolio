@@ -180,6 +180,7 @@ footer {
 .social a:hover {
   color: #3498db;
 }
+
 .btn-rounded-white {
   display: inline-block;
   color: #fff;
@@ -752,11 +753,23 @@ footer {
     width: 100% !important;
   }
 
+  .my-intro-box ul li:nth-child(1) div {
+    border-right: 1px solid #ddd !important;
+  }
+
+  .my-intro-box ul li:nth-child(2) div {
+    border-left: 1px solid #ddd !important;
+  }
+
   .project-info-box {
     display: block !important;
   }
 
   .mySwiper {
+    width: 100% !important;
+  }
+
+  .mySwiper-full {
     width: 100% !important;
   }
 
@@ -832,8 +845,16 @@ my-intro-box {
   -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
   transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
   padding: 10px0;
-  height: 370px;
+  height: 450px;
   position: relative;
+}
+
+.my-intro-box ul li:nth-child(1) div {
+  border-right: 1px solid #fff;
+}
+
+.my-intro-box ul li:nth-child(2) div {
+  border-left: 1px solid #fff;
 }
 
 .my-intro-box ul li div::before {
@@ -895,8 +916,13 @@ my-intro-box {
 .mySwiper {
   width: 500px;
   text-align: center;
-  margin-left: 0px;
-  margin-right: 0px;
+}
+
+.mySwiper-full {
+  width: 80%;
+  text-align: center;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .project-info-header {
@@ -938,9 +964,19 @@ my-intro-box {
 }
 
 .full-comments {
-  padding: 50px;
+  padding-left: 100px;
+  padding-top: 30px;
 }
 
 .full-comments img {
-  width: 80%;
+  width: 60%;
+}
+
+.project-info-header a {
+  color: #ddd;
+  padding: 10px;
+}
+
+.project-info-header a:hover {
+  color: #ddd;
 }
