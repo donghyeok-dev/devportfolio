@@ -18,7 +18,7 @@
 <body>
     <div class="project-info-header">
         <span>
-            <a href="https://donghyeok-dev.github.io/devportfolio#paradise">
+            <a href="https://donghyeok-dev.github.io/devportfolio#lotteeatz">
                 <i class="fas fa-arrow-left"></i> 이전 페이지로
             </a>
         </span>
@@ -28,13 +28,15 @@
         <div class="img-viewer app">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="../images/paradise-receipt-1.jpg" />
+                    <div class="swiper-slide"><img src="../images/lotteeatz-receipt-1.JPG" />
                     </div>
-                    <div class="swiper-slide"><img src="../images/paradise-receipt-4.jpg" />
+                    <div class="swiper-slide"><img src="../images/lotteeatz-receipt-2.JPG" />
                     </div>
-                    <div class="swiper-slide"><img src="../images/paradise-receipt-2.jpg" />
+                    <div class="swiper-slide"><img src="../images/lotteeatz-receipt-3.JPG" />
                     </div>
-                    <div class="swiper-slide"><img src="../images/paradise-receipt-3.jpg" />
+                    <div class="swiper-slide"><img src="../images/lotteeatz-receipt-4.JPG" />
+                    </div>
+                    <div class="swiper-slide"><img src="../images/lotteeatz-receipt-5.JPG" />
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -43,40 +45,38 @@
             </div>
         </div>
         <div class="half-comments">
-            <h2 class="heading">파라다이스 호텔 전자영수증</h2>
+            <h2 class="heading">롯데이츠 전자영수증</h2>
             <p>
-                파라다이스 호텔에서 발급하는 전자영수증을 개발하는 프로젝트입니다.
+                <a href="https://www.lottegrs.com/" target="_blank">롯데GRS</a>에서 진행하는 <a
+                    href="https://www.lotteeatz.com/" target="_blank">롯데잇츠</a> 프로젝트에 참여하여 전자영수증 Rest API를 개발하였습니다.
                 <br /><br />
-                개발단계는 사내에서 진행하였고 배포 및 테스트 단계는 VPN 접속을 통해 진행하였습니다.
+                개발단계는 사내에서 진행하였고 배포는 롯데GRS 개발 담당자에게 WAR파일을 전달하면 담당자가 JEUS에 배포하는 방식으로 진행하였습니다.
                 개발팀은 웹 개발자(Me), 퍼블리셔 2명으로 구성되었습니다.
                 <br /><br />
                 개발 항목<br />
-                - 배치를 통해 고객 휴대폰으로 전자영수증 URL 문자로 전송.<br />
-                - 전자영수증 리스트 화면.<br />
-                - 전자영수증 발급 현황 달력 화면.<br />
-                - 전자영수증 상세화면.<br />
-                - 상세화면 PDF 다운로드 기능.<br />
+                - POS(오프라인)결제, 온라인결제, 스마트영수증에 대한 영수증 데이터 조회 Rest API를 개발.<br />
             </p>
         </div>
     </div>
     <div class="full-comments">
-        <h2 class="heading">서버 구성</h2>
+        <h2 class="heading">Rest API</h2>
         <p>
-            Cent OS WEB/WAS 서버(JEUS, Java8) 1대, 운영 데이터베이스(Oracle), 문자발송데몬 서버로 구성되어 있으며, <br />
-            배포는 VPN망을 통해 SFTP로 서버에 WAR 파일을 업데이트한 뒤 Tomcat을 재기동 하였습니다.<br /><br />
-            <img src="../images/paradise-system-layout.jpg" />
+            제공한 Rest API로 요청이 오면 데이터베이스에서 해당 결제정보를 조회하여 영수증화면 HTML로 변환하여 응답을 줍니다.<br />
+            영수증의 폰트는 <a href="https://github.com/naver/d2codingfont" target="_blank">D2 Coding</a>를 사용
+            하였습니다.<br /><br />
+            <img src="../images/lotteeatz-api.JPG" style="width:700px;height:600px;" /><br /><br />
+            <img src="../images/lotteeatz-convert.JPG" style="width:700px;height:600px;" /><br /><br />
         </p>
     </div>
 
     <div class="full-comments">
         <h2 class="heading">애플리케이션 구성</h2>
         <p>
-            - Oracle Java 1.7<br />
-            - Springframework 3.2.1.RELEASE<br />
-            - JDBC<br />
+            - Oracle Java 1.8<br />
+            - 4.3.25.RELEASE<br />
+            - JNDI를 사용하여 Jeus에 등록된 DataSource(MS-SQL) 사용<br />
             - Mybatis<br />
             - Maven<br />
-            - front단은 JSP 파일에 퍼블리싱된 css, js, html을 적용하고, javascript와 Jquery를 이용하여 작업.<br />
         </p>
     </div>
 

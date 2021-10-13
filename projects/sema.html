@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donghyeok Portfolio</title>
+    <link rel="shortcut icon" href="../favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon2.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/styles.css?v=4" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/ca760bead7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="project-info-header">
+        <span>
+            <a href="https://donghyeok-dev.github.io/devportfolio#sema">
+                <i class="fas fa-arrow-left"></i> 이전 페이지로
+            </a>
+        </span>
+    </div>
+
+    <div class="project-info-box">
+        <div class="img-viewer" style="padding-left: 50px;">
+            <img src="../images/sema-info-1.JPG" style="width:600px;height:200px;"><br />
+            <img src="../images/sema-info-2.JPG" style="width:600px;height:200px;"><br />
+            <img src="../images/sema-info-3.JPG" style="width:600px;height:200px;"><br />
+        </div>
+        <div class="half-comments" style="width:40%">
+            <h2 class="heading">과학기술인공제회 CMS(Cash Management Service)</h2>
+            <p>
+                <a href="https://www.sema.or.kr/" target="_blank">과학기술인공제회</a>와 <a href="https://www.kftc.or.kr/"
+                    target="_blank">금융결제원</a>의 CMS 연계 시스템을 개발하는 프로젝트입니다.
+                <br /><br />
+                개발단계는 사내에서 진행하였고 배포 및 테스트 단계는 과학기술인공제회 본사에 며칠간 상주하면서 진행하였습니다.<br />
+                사내에서는 금융결제원과의 테스트가 불가하여 금융결제원에서 제공받은 개발 가이드 문서만 가지고 사내에 테스트 송,수신 서버를
+                만들어서 개발 및 테스트를 진행하였습니다.<br />
+                개발은 혼자 진행하였으며 웹 화면에 퍼블리싱은 과학기술인공제회에서 제공 받았습니다.
+                <br /><br />
+                개발 항목<br /><br />
+                - 출금이체신청결과내역(EB12), 출금동의증빙자료(EI13), 출금이체신청내역(EB13), 출금이체(익일출금)의뢰내역(EB21),
+                출금이체(당일출금)의뢰내역(EC21), 입금이체의뢰내역(EB31)의 CMS파일 송수신 모듈 개발.<br /><br />
+                - CMS 송수신 모듈 감시 및 재시작 프로세스 개발.<br /><br />
+                - CMS 파일 별 송신 시간 설정, 프로세스 실행상태 및 재시작, 송수신 이력 및 결과 확인 등을 할 수 있는 웹페이지 개발.<br />
+            </p>
+        </div>
+    </div>
+    <div class="full-comments">
+        <h2 class="heading">시스템 레이아웃</h2>
+        <p>
+            CentOS 서버 1대, 데이터베이스(Oracle) 서버, 금융결제원 서버로 구성되어 있으며, <br />
+            CentOS 서버는 CMS 송수신 모듈, Tomcat(웹 관리자), 프로세스 감시 모듈로 구성되어 있습니다. <br /><br />
+            <img src="../images/sema-system-layout.JPG" />
+        </p>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">애플리케이션 구성</h2>
+        <p>
+            - CMS송수신모듈: Oracle Java 1.6<br />
+            - 프로세스 감시 모듈: Oracle Java 1.6, <a href="https://netty.io/" target="_blank">Netty</a><br />
+            - 웹 관리자: Oracle Java 1.6, Springframework 3, Mybatis, Maven, javascript, Jquery, <a
+                href="https://socket.io/" target="_blank">socket.io</a><br />
+        </p>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">CMS송수신모듈</h2>
+        <p>
+            과학기술인공제회 데이터베이스에 등록된 데이터와 첨부파일을 전문형식에 맞는 byte로 가공하여 금융결제원과 TCP통신으로 송수신합니다.
+            <br /><br />
+            <img src="../images/sema-send-receive-flow.JPG" />
+            <br /><br />
+            송수신은 금융결제원의 송수신 처리표를 참고합니다.
+            <br /><br />
+            <img src="../images/sema-send-receive-process-time.JPG" />
+            <br /><br />
+            모듈 디렉토리는 다음과 같이 구성됩니다.
+            <br /><br />
+            <img src="../images/sema-directory.JPG" />
+            <br /><br />
+        </p>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">웹 관리자</h2>
+        <p>
+            갤러리아 전자영수증 발급 조회 및 통계, 마케팅 관리 등을 관리자가 이용할 수 있도록 웹으로 개발된 백오피스입니다.<br /><br />
+        </p>
+        <div class="swiper mySwiper-full">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../images/sema-web-admin-1.PNG" style="width:100%" />
+                </div>
+                <div class="swiper-slide"><img src="../images/sema-web-admin-2.PNG" style="width:100%" />
+                </div>
+                <div class="swiper-slide"><img src="../images/sema-web-admin-3.PNG" style="width:100%" />
+                </div>
+                <div class="swiper-slide"><img src="../images/sema-web-admin-4.PNG" style="width:100%" />
+                </div>
+                <div class="swiper-slide"><img src="../images/sema-web-admin-5.PNG" style="width:100%" />
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script language=javascript>
+
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var swiper2 = new Swiper(".mySwiper-full", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
