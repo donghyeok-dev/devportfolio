@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donghyeok Portfolio</title>
+    <link rel="shortcut icon" href="../favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon2.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/styles.css?v=4" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/ca760bead7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="project-info-header">
+        <span>
+            <a href="https://donghyeok-dev.github.io/devportfolio#dongoh">
+                <i class="fas fa-arrow-left"></i> 이전 페이지로
+            </a>
+        </span>
+    </div>
+
+    <div class="project-info-box">
+        <div class="img-viewer" style="padding-left: 50px; padding-top:50px; width: 800px;">
+            <img src="../images/dongoh-process.png" style="width:720px;height: 491px;">
+        </div>
+        <div class="half-comments" style="width:40%">
+            <h2 class="heading">동오그룹(경농) 전자입찰시스템</h2>
+            <p>
+                <a href="http://www.knco.co.kr/" target="_blank">동오그룹(경농)</a>에서 발주한 <a href="https://buy.dongoh.co.kr/"
+                    target="_blank">전자입찰시스템</a> 프로젝트입니다.
+                <br /><br />
+                동오그룹에 포함된 경농, 조비, 동오시드, 탑프레쉬, 글로벌아그로, 동오라이프사이언스와 회원사가 전자입찰시스템을 통해 비대면으로 물품을 거래할 수 있는 시스템입니다.
+                개발단계는 사내에서 진행하였고 배포 및 테스트 단계는 VPN 및 원격접속을 통해 진행하였습니다.<br />
+                <br />
+                <span class="project-info-sub-title">참여인원 및 업무</span><br />
+            <ul>
+                <li>팀장 - 업무 협의 및 기획</li>
+                <li>웹개발자 1명 - 운영서버 JDK, Nginx, Tomcat, SSL 설치 및 설정, 시스템 개발</li>
+                <li>퍼블리셔 1명 - 웹 퍼블리싱(HTML, CSS, IMAGE)</li>
+            </ul>
+            <br />
+            <span class="project-info-sub-title">개발 항목</span><br />
+            <ul>
+                <li>회원: 공고 검색화면, 공고 상세화면, 공고 응찰, My입찰, 회원가입, 아이디/비밀번호 찾기, 내정보수정, 로그인</li>
+                <li>담당자: 공고 검색화면, 공고 상세화면, 공고 등록,삭제, 낙찰, 유찰, 회원관리, 로그인</li>
+                <li>관리자: 모든 담당자 기능 + 담당자 관리</li>
+                <li>비회원 포함 공통: 메인, 구매개요, 구매절차</li>
+                <li>회원 및 담당자의 공고검색, 등록은 해당 사용자의 취급분류에 따라 검색 및 등록할 수 있으며 관리자는 모든 취급분류 가능.</li>
+                <li>매일 새벽 Spring Batch로 경농인사시스템에서 제공하는 View의 사원을 전자입찰시스템 담당자로 동기화.</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="full-comments">
+        <h2 class="heading">애플리케이션 구성</h2>
+        <ul>
+            <li>AdoptOpenJDK 11</li>
+            <li>Spring Boot 2.3.5.RELEASE</li>
+            <li>Spring Security5</li>
+            <li>Mybatis 2.1.0</li>
+            <li>Gradle 6.6.1</li>
+            <li>Lombok</li>
+            <li>JavaMailSender(spring-boot-starter-mail)</li>
+            <li>thymeleaf(SpringTemplateEngine)</li>
+            <li>poi 4.1.2(excel download)</li>
+            <li>JSP, tiles(apache), javascript, Jquery</li>
+        </ul>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">서버 구성</h2>
+        <p>
+            Windows Server 운영 2대, 테스트 1대, MS-SQL 서버, 메일서버로 구성 되어있습니다. <br />
+        </p>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">Flow Chart</h2>
+        <p>
+            <img src="../images/dongoh-flowchart.png" />
+        </p>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">전자입찰시스템 화면</h2>
+        <p>
+            <br />
+        </p>
+        <div class="swiper mySwiper-full">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../images/dongoh-screen-1.png" style="width:80%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-2.png"
+                        style="width:700px; height: 500px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-3.png"
+                        style="width:500px; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-4.png" style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-5.png" style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-6.png" style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-7.png" style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-8.png" style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-9.png" style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-10.png"
+                        style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-11.png"
+                        style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-12.png"
+                        style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-13.png"
+                        style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-14.png"
+                        style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-15.png"
+                        style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-16.png"
+                        style="width:100%; height: 900px;" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-screen-17.png"
+                        style="width:100%; height: 900px;" />
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script language=javascript>
+
+
+        var swiper2 = new Swiper(".mySwiper-full", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
