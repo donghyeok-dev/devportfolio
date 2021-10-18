@@ -38,33 +38,40 @@
                 <br /><br />
                 개발단계는 사내에서 진행하였고 배포 및 테스트 단계는 과학기술인공제회 본사에 며칠간 상주하면서 진행하였습니다.<br />
                 사내에서는 금융결제원과의 테스트가 불가하여 금융결제원에서 제공받은 개발 가이드 문서만 가지고 사내에 테스트 송,수신 서버를
-                만들어서 개발 및 테스트를 진행하였습니다.<br />
-                개발은 혼자 진행하였으며 웹 화면에 퍼블리싱은 과학기술인공제회에서 제공 받았습니다.
-                <br /><br />
-                개발 항목<br /><br />
-                - 출금이체신청결과내역(EB12), 출금동의증빙자료(EI13), 출금이체신청내역(EB13), 출금이체(익일출금)의뢰내역(EB21),
-                출금이체(당일출금)의뢰내역(EC21), 입금이체의뢰내역(EB31)의 CMS파일 송수신 모듈 개발.<br /><br />
-                - CMS 송수신 모듈 감시 및 재시작 프로세스 개발.<br /><br />
-                - CMS 파일 별 송신 시간 설정, 프로세스 실행상태 및 재시작, 송수신 이력 및 결과 확인 등을 할 수 있는 웹페이지 개발.<br />
+                만들어서 개발 및 테스트를 진행하였습니다.
             </p>
+            <span class="project-info-sub-title">참여인원 및 업무</span>
+            <ul>
+                <li>팀장 - 업무 협의</li>
+                <li>개발자 1명 - 시스템 개발</li>
+                <li>퍼블리싱은 과학기술인공제회에서 제공</li>
+            </ul>
+            <br />
+            <span class="project-info-sub-title">My 상세 업무</span>
+            <ul>
+                <li>CMS파일 송수신 모듈 개발 - 출금이체신청결과내역(EB12), 출금동의증빙자료(EI13), 출금이체신청내역(EB13), 출금이체(익일출금)의뢰내역(EB21),
+                    출금이체(당일출금)의뢰내역(EC21), 입금이체의뢰내역(EB31)</li>
+                <li>CMS 송수신 모듈 감시 및 재시작 프로세스 개발</li>
+                <li>관리자 웹 개발 - CMS 파일 별 송신 시간 설정, 프로세스 실행상태 및 재시작, 송수신 이력 및 결과 확인</li>
+            </ul>
         </div>
     </div>
+    <div class="full-comments">
+        <h2 class="heading">애플리케이션 구성</h2>
+        <ul>
+            <li>CMS송수신모듈 - Oracle Java 1.6</li>
+            <li>프로세스 감시 모듈 - Oracle Java 1.6, <a href="https://netty.io/" target="_blank">Netty</a></li>
+            <li>웹 관리자 - Oracle Java 1.6, Springframework 3, Mybatis, Maven, javascript, Jquery, <a
+                    href="https://socket.io/" target="_blank">socket.io</a></li>
+        </ul>
+    </div>
+
     <div class="full-comments">
         <h2 class="heading">서버 구성</h2>
         <p>
             CentOS 서버 1대, 데이터베이스(Oracle) 서버, 금융결제원 서버로 구성되어 있으며, <br />
             CentOS 서버는 CMS 송수신 모듈, Tomcat(웹 관리자), 프로세스 감시 모듈로 구성되어 있습니다. <br /><br />
             <img src="../images/sema-system-layout.JPG" />
-        </p>
-    </div>
-
-    <div class="full-comments">
-        <h2 class="heading">애플리케이션 구성</h2>
-        <p>
-            - CMS송수신모듈: Oracle Java 1.6<br />
-            - 프로세스 감시 모듈: Oracle Java 1.6, <a href="https://netty.io/" target="_blank">Netty</a><br />
-            - 웹 관리자: Oracle Java 1.6, Springframework 3, Mybatis, Maven, javascript, Jquery, <a
-                href="https://socket.io/" target="_blank">socket.io</a><br />
         </p>
     </div>
 
@@ -109,8 +116,12 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
+    <a class="top_move_button" href="#" style="display: block;">
+        <span style="font-size: 35px;" title="Top"><i class="fas fa-chevron-up"></i></span>
+    </a>
 
     <script src="../js/jquery.min.js"></script>
+    <script src="../js/projects-sub.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script language=javascript>
 

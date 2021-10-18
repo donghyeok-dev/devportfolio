@@ -51,36 +51,47 @@
                     href="https://www.lotteeatz.com/" target="_blank">롯데잇츠</a> 프로젝트에 참여하여 전자영수증 Rest API를 개발하였습니다.
                 <br /><br />
                 개발단계는 사내에서 진행하였고 배포는 롯데GRS 개발 담당자에게 WAR파일을 전달하면 담당자가 JEUS에 배포하는 방식으로 진행하였습니다.
-                개발팀은 웹 개발자(Me), 퍼블리셔 2명으로 구성되었습니다.
-                <br /><br />
-                개발 항목<br />
-                - POS(오프라인)결제, 온라인결제, 스마트영수증에 대한 영수증 데이터 조회 Rest API를 개발.<br />
             </p>
+            <span class="project-info-sub-title">참여인원 및 업무</span>
+            <ul>
+                <li>팀장 - 업무 협의</li>
+                <li>웹개발자 1명 - 영수증 화면 Rest API 개발</li>
+                <li>퍼블리셔 1명 - 웹 퍼블리싱(HTML, CSS, IMAGE)</li>
+            </ul>
+            <span class="project-info-sub-title">My 상세 업무</span>
+            <ul>
+                <li>POS(오프라인)결제, 온라인결제, 스마트영수증에 대한 POS 데이터를 조회하여 HTML형태로 파싱하여 응답하는 Rest API를 개발.</li>
+            </ul>
+
         </div>
     </div>
+
+    <div class="full-comments">
+        <h2 class="heading">애플리케이션 구성</h2>
+        <ul>
+            <li>Oracle Java 1.8</li>
+            <li>Springframework 4.3.25.RELEASE</li>
+            <li>JNDI를 사용하여 Jeus에 등록된 DataSource(MS-SQL) 사용</li>
+            <li>Mybatis</li>
+            <li>Maven</li>
+        </ul>
+    </div>
+
     <div class="full-comments">
         <h2 class="heading">Rest API</h2>
         <p>
-            제공한 Rest API로 요청이 오면 데이터베이스에서 해당 결제정보를 조회하여 영수증화면 HTML로 변환하여 응답을 줍니다.<br />
-            영수증의 폰트는 <a href="https://github.com/naver/d2codingfont" target="_blank">D2 Coding</a>를 사용
-            하였습니다.<br /><br />
+            제공한 Rest API로 요청이 오면 데이터베이스에서 해당 결제정보를 조회하여 영수증화면 HTML로 변환하여 응답을 줍니다.<br /><br />
             <img src="../images/lotteeatz-api.JPG" style="width:700px;height:600px;" /><br /><br />
             <img src="../images/lotteeatz-convert.JPG" style="width:700px;height:600px;" /><br /><br />
         </p>
     </div>
 
-    <div class="full-comments">
-        <h2 class="heading">애플리케이션 구성</h2>
-        <p>
-            - Oracle Java 1.8<br />
-            - 4.3.25.RELEASE<br />
-            - JNDI를 사용하여 Jeus에 등록된 DataSource(MS-SQL) 사용<br />
-            - Mybatis<br />
-            - Maven<br />
-        </p>
-    </div>
+    <a class="top_move_button" href="#" style="display: block;">
+        <span style="font-size: 35px;" title="Top"><i class="fas fa-chevron-up"></i></span>
+    </a>
 
     <script src="../js/jquery.min.js"></script>
+    <script src="../js/projects-sub.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script language=javascript>
 

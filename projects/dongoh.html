@@ -25,35 +25,37 @@
     </div>
 
     <div class="project-info-box">
-        <div class="img-viewer" style="padding-left: 50px; padding-top:50px; width: 800px;">
+        <div class="img-viewer" style="padding-left: 50px; width: 800px;">
             <img src="../images/dongoh-process.png" style="width:720px;height: 491px;">
         </div>
         <div class="half-comments" style="width:40%">
-            <h2 class="heading">동오그룹(경농) 전자입찰시스템</h2>
+            <h2 class="heading">동오그룹(경농) 전자입찰시스템 및 백오피스</h2>
             <p>
                 <a href="http://www.knco.co.kr/" target="_blank">동오그룹(경농)</a>에서 발주한 <a href="https://buy.dongoh.co.kr/"
-                    target="_blank">전자입찰시스템</a> 프로젝트입니다.
+                    target="_blank">전자입찰시스템</a> 및 <a href="https://reg.dongoh.co.kr/" target="_blank">제품등록 백오피스</a>
+                프로젝트입니다.
                 <br /><br />
-                동오그룹에 포함된 경농, 조비, 동오시드, 탑프레쉬, 글로벌아그로, 동오라이프사이언스와 회원사가 전자입찰시스템을 통해 비대면으로 물품을 거래할 수 있는 시스템입니다.
+                동오그룹에 포함된 경농, 조비, 동오시드, 탑프레쉬, 글로벌아그로, 동오라이프사이언스와 회원사가 전자입찰시스템을 통해 비대면으로 물품을 거래할 수 있는 시스템과
+                동오그룹 담당자가 제품등록관리를 위한 백오피스를 개발하였습니다.<br />
                 개발단계는 사내에서 진행하였고 배포 및 테스트 단계는 VPN 및 원격접속을 통해 진행하였습니다.<br />
-                <br />
-                <span class="project-info-sub-title">참여인원 및 업무</span><br />
+            </p>
+            <span class="project-info-sub-title">참여인원 및 업무</span>
             <ul>
                 <li>팀장 - 업무 협의 및 기획</li>
                 <li>웹개발자 1명 - 운영서버 JDK, Nginx, Tomcat, SSL 설치 및 설정, 시스템 개발</li>
                 <li>퍼블리셔 1명 - 웹 퍼블리싱(HTML, CSS, IMAGE)</li>
             </ul>
-            <br />
-            <span class="project-info-sub-title">개발 항목</span><br />
+            <span class="project-info-sub-title">My 상세 업무</span>
             <ul>
-                <li>회원: 공고 검색화면, 공고 상세화면, 공고 응찰, My입찰, 회원가입, 아이디/비밀번호 찾기, 내정보수정, 로그인</li>
-                <li>담당자: 공고 검색화면, 공고 상세화면, 공고 등록,삭제, 낙찰, 유찰, 회원관리, 로그인</li>
-                <li>관리자: 모든 담당자 기능 + 담당자 관리</li>
-                <li>비회원 포함 공통: 메인, 구매개요, 구매절차</li>
-                <li>회원 및 담당자의 공고검색, 등록은 해당 사용자의 취급분류에 따라 검색 및 등록할 수 있으며 관리자는 모든 취급분류 가능.</li>
-                <li>매일 새벽 Spring Batch로 경농인사시스템에서 제공하는 View의 사원을 전자입찰시스템 담당자로 동기화.</li>
+                <li>[전자입찰시스템] 회원 - 공고 검색화면, 공고 상세화면, 공고 응찰, My입찰, 회원가입, 아이디/비밀번호 찾기, 내정보수정, 로그인</li>
+                <li>[전자입찰시스템] 담당자 - 공고 검색화면, 공고 상세화면, 공고 등록,삭제, 낙찰, 유찰, 회원관리, 로그인</li>
+                <li>[전자입찰시스템] 관리자 - 모든 담당자 기능 + 담당자 관리</li>
+                <li>[전자입찰시스템] 비회원 포함 공통 - 메인, 구매개요, 구매절차</li>
+                <li>[전자입찰시스템] 회원 및 담당자의 공고검색, 등록은 해당 사용자의 취급분류에 따라 검색 및 등록할 수 있으며 관리자는 모든 취급분류 가능.</li>
+                <li>[제품등록 백오피스] 담당자만 이용하는 시스템으로 제품등록, 원제등록 화면 조회, 등록, 수정, 삭제 기능, 관리자 담당자 조회, 권한수정</li>
+                <li>[공통] 매일 새벽 Spring Batch로 경농인사시스템에서 제공하는 View의 사원을 담당자로 동기화.</li>
             </ul>
-            </p>
+
         </div>
     </div>
     <div class="full-comments">
@@ -75,12 +77,12 @@
     <div class="full-comments">
         <h2 class="heading">서버 구성</h2>
         <p>
-            Windows Server 운영 2대, 테스트 1대, MS-SQL 서버, 메일서버로 구성 되어있습니다. <br />
+            Windows Server 운영 2대(web/was), 테스트 1대, MS-SQL 서버, 메일서버로 구성 되어있습니다. <br />
         </p>
     </div>
 
     <div class="full-comments">
-        <h2 class="heading">Flow Chart</h2>
+        <h2 class="heading">전자입찰시스템 Flow Chart</h2>
         <p>
             <img src="../images/dongoh-flowchart.png" />
         </p>
@@ -144,7 +146,40 @@
         </div>
     </div>
 
+    <div class="full-comments">
+        <h2 class="heading">백오피스 화면</h2>
+        <p>
+            <br />
+        </p>
+        <div class="swiper mySwiper-full">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../images/dongoh-reg-screen-1.png" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-reg-screen-2.png" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-reg-screen-3.png" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-reg-screen-4.png" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-reg-screen-7.png" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-reg-screen-5.png" />
+                </div>
+                <div class="swiper-slide"><img src="../images/dongoh-reg-screen-6.png" />
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <a class="top_move_button" href="#" style="display: block;">
+        <span style="font-size: 35px;" title="Top"><i class="fas fa-chevron-up"></i></span>
+    </a>
+
     <script src="../js/jquery.min.js"></script>
+    <script src="../js/projects-sub.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script language=javascript>
 

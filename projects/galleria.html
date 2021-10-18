@@ -50,19 +50,44 @@
                 한화 갤러리아 백화점 앱에서 사용되는 전자영수증 및 백오피스를 개발하는 프로젝트입니다.
                 <br /><br />
                 개발단계는 사내에서 진행하였고 배포 및 테스트 단계는 한화 본사에 며칠간 상주하면서 진행하였습니다.
-                개발팀은 팀장, 안드로이드 개발자, 아이폰 개발자, 영수증데이터 수집 프로세스 개발자,
-                영수증 화면 및 백오피스 웹개발자(Me), 퍼블리셔 총 6명으로 구성 되었습니다.
-                <br /><br />
-                개발 항목<br />
-                - 앱 설정에서 전자영수증 ON/OFF 업데이트 API 제공.<br />
-                - 고객 전자영수증 리스트 화면.<br />
-                - 고객 전자영수증 상세 화면(앱, 문자 발신용 2가지 버전).<br />
-                - 상세화면에 영수증 코드로 바코드 표시.<br />
-                - 상세화면 PDF 다운로드 기능.<br />
-                - 상세화면 좌우 슬라이더로 이전 이후 영수증 보기 기능.<br />
             </p>
+            <span class="project-info-sub-title">참여인원 및 업무</span>
+            <ul>
+                <li>팀장 - 업무 협의 및 기획</li>
+                <li>안드로이드 개발자 1명 - 갤러리아 앱 설정화면 및 전자영수증 프레임 개발</li>
+                <li>아이폰 개발자 1명 - 갤러리아 앱 설정화면 및 전자영수증 프레임 개발</li>
+                <li>영수증데이터 수집 개발 1명 - 갤러리아 백화점 각 지점의 영수증 정보 수집 프로세스 개발</li>
+                <li>웹개발자 1명 - 갤러리아 앱 전자영수증 화면 개발, 백오피스 개발</li>
+                <li>퍼블리셔 1명 - 웹 퍼블리싱(HTML, CSS, IMAGE)</li>
+            </ul>
+            <span class="project-info-sub-title">My 상세 업무</span>
+            <ul>
+                <li>갤러리아 전자영수증 리스트 화면 개발</li>
+                <li>갤러리아 전자영수증 상세 화면(앱, 문자 발신용 2가지 버전), 바코드, PDF 다운로드 기능 개발</li>
+                <li>앱 설정 - 전자영수증 ON/OFF 업데이트 API 제공</li>
+                <li>갤러리아 회원정보조회 API 연동(APP Token 조회)</li>
+                <li>전자영수증 백오피스 개발</li>
+                <li>한화 통합 업무 시스템(Circle)과의 백오피스 시스템 로그인 연동(SLO)</li>
+                <li>Jeus & WebtoB 배포 및 한화 서버 담당자와의 협업(Jeus & WebtoB, 앱토큰, SLO 서버 관련 방화벽 문제 등) </li>
+            </ul>
+
         </div>
     </div>
+    <div class="full-comments">
+        <h2 class="heading">애플리케이션 구성</h2>
+        <ul>
+            <li>Oracle Java 1.8</li>
+            <li>Springframework 4.3.25.RELEASE</li>
+            <li>JNDI를 사용하여 Jeus에 등록된 DataSource(Oracle) 사용</li>
+            <li>Mybatis</li>
+            <li>Maven</li>
+            <li>JSP, javascript, Jquery, <a href="http://barbecue.sourceforge.net/" target="_blank">barbecue</a>,
+                <a href="https://itextpdf.com/ko/products" target="_blank">itextpdf</a>,
+                <a href="https://swiperjs.com/" target="_blank">swiperjs</a>
+            </li>
+        </ul>
+    </div>
+
     <div class="full-comments">
         <h2 class="heading">서버 구성 및 배포</h2>
         <p>
@@ -70,21 +95,6 @@
             구성되어 있으며, <br />
             배포는 내부망에서 SFTP로 웹 또는 WAS 서버에 파일을 업데이트한 뒤 webadmin에서 jeus를 재기동 하였습니다.<br /><br />
             <img src="../images/receipt-system-layout.png" />
-        </p>
-    </div>
-
-    <div class="full-comments">
-        <h2 class="heading">애플리케이션 구성</h2>
-        <p>
-            - Oracle Java 1.8<br />
-            - Springframework 4.3.25.RELEASE<br />
-            - JNDI를 사용하여 Jeus에 등록된 DataSource(Oracle) 사용<br />
-            - Mybatis<br />
-            - Maven<br />
-            - front단은 JSP 파일에 퍼블리싱된 css, js, html을 적용하고, javascript와 Jquery를 이용하여 작업.<br />
-            - 기타 외부 라이브러리 <a href="http://barbecue.sourceforge.net/" target="_blank">barbecue</a>,
-            <a href="https://itextpdf.com/ko/products" target="_blank">itextpdf</a>,
-            <a href="https://swiperjs.com/" target="_blank">swiperjs</a> 사용.
         </p>
     </div>
 
@@ -153,8 +163,12 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
+    <a class="top_move_button" href="#" style="display: block;">
+        <span style="font-size: 35px;" title="Top"><i class="fas fa-chevron-up"></i></span>
+    </a>
 
     <script src="../js/jquery.min.js"></script>
+    <script src="../js/projects-sub.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script language=javascript>
 
