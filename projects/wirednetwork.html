@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donghyeok Portfolio</title>
+    <link rel="shortcut icon" href="../favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon2.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/styles.css?v=4" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/ca760bead7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="project-info-header">
+        <span>
+            <a href="https://donghyeok-dev.github.io/devportfolio#firewall">
+                <i class="fas fa-arrow-left"></i> 이전 페이지로
+            </a>
+        </span>
+    </div>
+
+    <div class="project-info-box" style="padding: 50px 30px 0 0;">
+        <div class="full-comments">
+            <h2 class="heading">유선망품질관리시스템</h2>
+            <p>
+                SK C&C가 발주하고 SK Telecom 분당 사옥 매니저들과 업무 협의하여 개발되었으며,<br/>
+                복잡한 네트워크 경로 사이의 성능 품질을 측정하여 네트워크 문제 해결, 분석 및 네트워크 토폴로지 설계에 대한 정보 제공을 목적으로 개발된 시스템입니다.
+                <br /><br />
+            </p>
+            <span class="project-info-sub-title">참여인원 및 업무</span>
+            <ul>
+                <li>웹개발자 1명 - 시스템 개발</li>
+                <li>웹개발자 1명 - 유지보수</li>
+                <li>퍼블리셔 1명 - 웹 퍼블리싱(HTML, CSS, IMAGE)</li>
+            </ul>
+            <span class="project-info-sub-title">My 상세 업무</span>
+            <ul>
+                <li>유지보수</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">애플리케이션 구성</h2>
+        <ul>
+            <li>Java 6</li>
+            <li>Springframework 3</li>
+            <li>Oracle 10g</li>
+            <li>iBatis</li>
+            <li>JSP, JSTL, Javascript, Jquery</li>
+        </ul>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">서버 구성</h2>
+        <p>
+            Solaris(Apache Tomcat 7) 1대, Oracle 10g 1대로 구성.<br />
+        </p>
+    </div>
+
+    <div class="full-comments">
+        <h2 class="heading">시스템 화면</h2>
+        <p>
+            <br />
+        </p>
+        <div class="swiper mySwiper-full">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../images/wirednetwork-screen-1.PNG" />
+                </div>
+                <div class="swiper-slide"><img src="../images/wirednetwork-screen-2.png" />
+                </div>
+                <div class="swiper-slide"><img src="../images/wirednetwork-screen-3.png" />
+                </div>
+                <div class="swiper-slide"><img src="../images/wirednetwork-screen-4.png" />
+                </div>
+                
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <a class="top_move_button" href="#" style="display: block;">
+        <span style="font-size: 35px;" title="Top"><i class="fas fa-chevron-up"></i></span>
+    </a>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/projects-sub.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script language=javascript>
+
+
+        var swiper2 = new Swiper(".mySwiper-full", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
