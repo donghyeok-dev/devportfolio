@@ -469,10 +469,13 @@ footer {
 }
 .project-image {
   float: left;
+  height: 250px;
+  line-height: 250px;
 }
 .project-image img {
-  width: 300px;
-  height: 300px;
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
 }
 
 .project-info {
@@ -966,7 +969,7 @@ my-intro-box {
 
 .project-info-box .half-comments {
   width: 30%;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .full-comments {
@@ -976,6 +979,15 @@ my-intro-box {
 
 .full-comments img {
   width: 60%;
+}
+
+.full-comments img.width90 {
+  width: 90%;
+  height: 700px;
+}
+
+.full-comments img.width100 {
+  width: 100%;
 }
 
 .project-info-header a {
@@ -1019,4 +1031,10 @@ my-intro-box {
 .custom-left-20-padding {
   margin-top: 20px;
   margin-left: 20px;
+}
+
+.project-list-sub-title {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
 }
