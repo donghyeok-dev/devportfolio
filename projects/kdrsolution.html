@@ -44,94 +44,47 @@
             <ul>
                 <li>팀장 - 업무 협의 및 기획</li>
                 <li>웹개발자 1명 - 시스템 개발</li>
-                <li>퍼블리셔 1명 - 웹 퍼블리싱(HTML, CSS, IMAGE)</li>
+                <li>퍼블리셔 1명 - 퍼블리싱</li>
             </ul>
             <span class="project-info-sub-title">My 상세 업무</span>
             <ul>
                 <li>솔루션 가맹점 웹사이트 개발 및 유지보수</li>
                 <li>원스톱 우편서비스 웹사이트 개발 및 유지보수</li>
                 <li>솔루션 영업점 웹사이트 개발 및 유지보수</li>
-                <li>Web/Was 운영서버(Windows Server) JDK, Nginx, Tomcat, SSL 설치, 설정, 관리</li>
-                <li>Redis 세션 서버(CentOS) 설치, 설정, 관리</li>
-                <li>Prometeus 모니터링 서버(CentOS) 설치, 설정, 관리</li>
-                <li>서버, 애플리케이션 오류 알람 설정(Slack, Sentry)</li>
+				<li>Github 소스 관리</li>
+                <li>Web/Was 서버 관리</li>
+                <li>Redis 세션 서버 구축 및 관리</li>
+                <li>Prometeus, Grafana 모니터링 구축 및 관리</li>
+                <li>서버, 애플리케이션 오류 Slack 알람 설정</li>
+				<li>Jira, Confluence 업무 및 문서 관리</li>
             </ul>
 
         </div>
     </div>
     <div class="full-comments">
         <h2 class="heading">애플리케이션 구성</h2>
-        <br />
-        <div class="project-info-box">
-            <div>
-                <span class="project-info-sub-title custom-left-20-padding">솔루션 가맹점</span>
-                <ul>
-                    <li>AdoptOpenJDK 11</li>
-                    <li>Spring Boot 2.3.5</li>
-                    <li>Spring Security5</li>
-                    <li>Mybatis 2.1.0</li>
-                    <li>spring-session-data-redis</li>
-                    <li>Gradle 6.4.1</li>
-                    <li>Lombok</li>
-                    <li><a href="https://github.com/donghyeok-dev/spring-simple-excel">직접 만든 excel 다운로드 라이브러리</a></li>
-                    <li>lucy-xss</li>
-                    <li>logback-slack-appender</li>
-                    <li>sentry-spring-boot-starter</li>
-                    <li>JUnit5</li>
-                    <li>JSP, tiles(apache), javascript, Jquery</li>
-                    <li>Git</li>
-                </ul>
-            </div>
-            <div>
-                <span class="project-info-sub-title custom-left-20-padding">우편서비스</span>
-                <ul>
-                    <li>AdoptOpenJDK 11</li>
-                    <li>Spring Boot 2.4.4</li>
-                    <li>Spring Security5</li>
-                    <li>Spring JPA(Hibernate)</li>
-                    <li>spring-session-data-redis</li>
-                    <li>Gradle 6.8.3</li>
-                    <li>Lombok</li>
-                    <li>Mapstruct 1.4</li>
-                    <li>logback-slack-appender</li>
-                    <li>sentry-spring-boot-starter</li>
-                    <li>JUnit5</li>
-                    <li>thymeleaf, thymeleaf-layout, javascript, Jquery</li>
-                    <li>Git</li>
-                </ul>
-            </div>
-            <div>
-                <span class="project-info-sub-title custom-left-20-padding">솔루션 영업점</span>
+        <div class="project-info-box" style="padding:0px;">
                 <ul>
                     <li>AdoptOpenJDK 11</li>
                     <li>Spring Boot 2.5.3</li>
                     <li>Spring Security5</li>
                     <li>Spring JPA(Hibernate)</li>
+					<li>QueryDsl</li>
                     <li>spring-session-data-redis</li>
                     <li>Gradle 7.1.1</li>
                     <li>Lombok</li>
                     <li>Mapstruct 1.4</li>
-                    <li><a href="https://github.com/donghyeok-dev/spring-simple-excel">직접 만든 excel 다운로드 라이브러리</a></li>
-                    <li>logback-slack-appender</li>
-                    <li>sentry-spring-boot-starter</li>
                     <li>JUnit5</li>
                     <li>thymeleaf, thymeleaf-layout, javascript, Jquery</li>
-                    <li>Git</li>
+                    <li>Git, Github</li>
                 </ul>
-            </div>
-        </div>
+		</div>
     </div>
 
     <div class="full-comments">
         <h2 class="heading">서버 구성</h2>
         <p>
-            <img src="../images/kdrsolution-system-layout.png" />
-            <br /><br />
-            <span class="project-info-sub-title">서버 설정 History</span><br />
-            <a href="https://donghyeok-dev.github.io/session/server/CentOS-7-Redis-%EC%84%A4%EC%B9%98%EC%99%80-%EC%84%A4%EC%A0%95/"
-                target="_blank">Redis 설정</a><br />
-            <a href="https://donghyeok-dev.github.io/monitoring/server/%EC%84%9C%EB%B2%84-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-Prometheus,-Grafana/"
-                target="_blank">Prometeus, Grafana 설정</a><br />
+            <img src="../images/solution_layout.png" />
         </p>
     </div>
 
@@ -211,15 +164,17 @@
         </p>
         <div class="swiper mySwiper-full">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="../images/kdrsolution-sales-1.png" />
+                <div class="swiper-slide"><img src="../images/sales_screen1.PNG" />
                 </div>
-                <div class="swiper-slide"><img src="../images/kdrsolution-sales-2.png" />
+				<div class="swiper-slide"><img src="../images/sales_screen2.PNG" />
                 </div>
-                <div class="swiper-slide"><img src="../images/kdrsolution-sales-3.png" />
+				<div class="swiper-slide"><img src="../images/sales_screen3.PNG" />
                 </div>
-                <div class="swiper-slide"><img src="../images/kdrsolution-sales-4.png" />
+				<div class="swiper-slide"><img src="../images/sales_screen4.PNG" />
                 </div>
-                <div class="swiper-slide"><img src="../images/kdrsolution-sales-5.png" />
+				<div class="swiper-slide"><img src="../images/sales_screen5.PNG" />
+                </div>
+				<div class="swiper-slide"><img src="../images/sales_screen6.PNG" />
                 </div>
             </div>
             <div class="swiper-button-next"></div>
