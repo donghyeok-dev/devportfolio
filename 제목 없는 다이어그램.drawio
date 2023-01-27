@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T07:21:47.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZEaG5nONK-O1RoettWaH" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T07:26:22.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qNS1MAl5wJhv3vSJgedw" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uAVWBllw0vdzFXxvWoM9-3" value="멤버십 API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;size=40;fontFamily=Verdana;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="320" y="80" width="120" height="1130" as="geometry" />
+          <mxGeometry x="320" y="80" width="120" height="1440" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="uAVWBllw0vdzFXxvWoM9-3">
           <mxGeometry x="55" y="210" width="10" height="39" as="geometry" />
@@ -14,13 +14,13 @@
           <mxGeometry x="55" y="519" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-6" value="홈페이지" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Verdana;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="140" height="1120" as="geometry" />
+          <mxGeometry x="40" y="80" width="140" height="1440" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="105" y="190" width="10" height="270" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-9" value="산하(PMS, POS)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;fontFamily=Verdana;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="600" y="77" width="160" height="1123" as="geometry" />
+          <mxGeometry x="600" y="77" width="160" height="1443" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.1;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uAVWBllw0vdzFXxvWoM9-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -40,10 +40,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.3;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uAVWBllw0vdzFXxvWoM9-20">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.3;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="370" as="sourcePoint" />
-            <mxPoint x="660" y="359" as="targetPoint" />
+            <mxPoint x="120" y="364" as="sourcePoint" />
+            <mxPoint x="672" y="362.9649999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-22" value="&lt;font color=&quot;#cc6600&quot;&gt;객실 예약&lt;/font&gt; (객실정보 및 쿠폰 일련번호 List)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-21">
@@ -176,9 +176,9 @@
             <mxPoint x="392" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-67" value="&lt;font color=&quot;#336600&quot; style=&quot;font-size: 12px;&quot;&gt;쿠폰 사용 완료&lt;/font&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/font&gt;(쿠폰 일련번호 List)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-66">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-67" value="&lt;font color=&quot;#336600&quot; style=&quot;font-size: 12px;&quot;&gt;쿠폰 사용 완료&lt;/font&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/font&gt;(회원번호, 호텔코드, 쿠폰 일련번호, 매장업장코드 List)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-66">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
-            <mxPoint x="67" y="-17" as="offset" />
+            <mxPoint x="121" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-68" value="200 OK" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=1.4;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Verdana;fontSize=12;" edge="1" parent="uAVWBllw0vdzFXxvWoM9-63">
