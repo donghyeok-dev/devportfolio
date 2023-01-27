@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T08:12:15.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="yh2NmJYCPmKT_wHbhytg" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T08:13:27.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="m7zOUXMYQHwKf6r_xvti" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -291,7 +291,7 @@
           <mxGeometry x="240" y="1720" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-114" value="Web, 유선 예약" style="endArrow=classic;html=1;rounded=0;fontFamily=Verdana;fontSize=15;fontColor=#333333;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAVWBllw0vdzFXxvWoM9-110" target="uAVWBllw0vdzFXxvWoM9-111">
-          <mxGeometry x="0.5416" y="-39" width="50" height="50" relative="1" as="geometry">
+          <mxGeometry x="0.631" y="-45" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="1470" as="sourcePoint" />
             <mxPoint x="370" y="1420" as="targetPoint" />
             <mxPoint as="offset" />
