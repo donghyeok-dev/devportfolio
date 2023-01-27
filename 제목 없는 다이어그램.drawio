@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T06:52:55.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3AwjZEnfMeFxsoWfoMsm" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T06:54:45.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dBUpJa5FxoNZ4D5O6zSg" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="55" y="201" width="10" height="39" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="uAVWBllw0vdzFXxvWoM9-3">
-          <mxGeometry x="55" y="578" width="10" height="30" as="geometry" />
+          <mxGeometry x="55" y="545" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-6" value="홈페이지" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Verdana;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="140" height="880" as="geometry" />
@@ -20,10 +20,10 @@
           <mxGeometry x="105" y="190" width="10" height="270" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-9" value="산하(PMS, POS)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;fontFamily=Verdana;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="600" y="77" width="160" height="883" as="geometry" />
+          <mxGeometry x="600" y="77" width="200" height="883" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-45" value="쿠폰 사용 완료" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Verdana;fontSize=17;fontStyle=0;direction=west;" vertex="1" parent="uAVWBllw0vdzFXxvWoM9-9">
-          <mxGeometry x="-600" y="677" width="760" height="120" as="geometry" />
+          <mxGeometry x="-600" y="636" width="800" height="134" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-46" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="uAVWBllw0vdzFXxvWoM9-45">
           <mxGeometry x="675" y="27" width="10" height="30" as="geometry" />
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-51" value="예약 쿠폰(체크인 or 체크아웃)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 또는&amp;nbsp;&lt;br&gt;현장(매장) 즉시 쿠폰 사용" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Verdana;fontColor=#CC0000;" vertex="1" parent="uAVWBllw0vdzFXxvWoM9-45">
-          <mxGeometry x="418" y="70" width="233" height="50" as="geometry" />
+          <mxGeometry x="418" y="81" width="233" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.1;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uAVWBllw0vdzFXxvWoM9-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -129,7 +129,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-32" value="Web 예약 취소" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=17;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry y="554" width="800" height="150" as="geometry" />
+          <mxGeometry y="521" width="800" height="150" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-34" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="uAVWBllw0vdzFXxvWoM9-32">
           <mxGeometry x="675" y="30" width="10" height="100" as="geometry" />
@@ -168,8 +168,8 @@
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-40" value="200 OK" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=1.4;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Verdana;entryX=-0.3;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" target="uAVWBllw0vdzFXxvWoM9-34">
           <mxGeometry x="0.0038" y="-25" relative="1" as="geometry">
-            <mxPoint x="650" y="679" as="targetPoint" />
-            <mxPoint x="389" y="679" as="sourcePoint" />
+            <mxPoint x="650" y="646" as="targetPoint" />
+            <mxPoint x="389" y="646" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
