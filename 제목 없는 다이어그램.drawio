@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T10:52:12.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Cxba9i3oemEg54xxHuxM" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T10:52:53.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RVWXq-CiVuRN5KQZXkPT" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -445,8 +445,8 @@
             <mxPoint x="77" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-189" value="산하 투숙회원 쿠폰 사용 완료" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Verdana;fontSize=17;fontStyle=0;direction=west;" vertex="1" parent="1">
-          <mxGeometry y="971" width="1120" height="689" as="geometry" />
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-189" value="산하예약&amp;nbsp;객실 체크인" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Verdana;fontSize=17;fontStyle=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry y="971" width="1120" height="509" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-191" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="uAVWBllw0vdzFXxvWoM9-189">
           <mxGeometry x="375" y="442" width="10" height="39" as="geometry" />
