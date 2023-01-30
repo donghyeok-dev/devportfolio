@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T08:23:48.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="I40lFWib2NU33S88dEcE" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T08:25:08.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OEShRgG8of0Sq8_UpZbt" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             <mxPoint x="910" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-127" value="&lt;font color=&quot;#cc6600&quot;&gt;객실 예약 정보&lt;/font&gt; (CMS예약번호, 객실정보,쿠폰 일련번호 List)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-126">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-127" value="&lt;font color=&quot;#cc6600&quot;&gt;객실 예약 정보&lt;/font&gt; (회원번호, CMS예약번호, 객실정보,쿠폰 일련번호 List)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-126">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="-95" y="-8" as="offset" />
           </mxGeometry>
