@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T10:04:56.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7mGYBhQPC0gwb40NT6Lt" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T10:05:33.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="agQ_u26RD1EyD-yEt0dv" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -440,7 +440,7 @@
             <mxPoint x="390" y="876" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-172" value="&lt;font color=&quot;#cc0000&quot;&gt;쿠폰 취소&lt;/font&gt; ( [쿠폰 일련번호] List)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-171">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-172" value="&lt;font color=&quot;#cc0000&quot;&gt;쿠폰 취소&lt;/font&gt; ([쿠폰 일련번호List])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-171">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="77" y="-14" as="offset" />
           </mxGeometry>
@@ -457,7 +457,7 @@
             <mxPoint x="390" y="73" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-193" value="&lt;font color=&quot;#336600&quot; style=&quot;font-size: 12px;&quot;&gt;쿠폰 사용 완료&lt;/font&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/font&gt;(회원번호, 호텔코드, [쿠폰 일련번호, 매장업장코드] List)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-192">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-193" value="&lt;font color=&quot;#336600&quot; style=&quot;font-size: 12px;&quot;&gt;쿠폰 사용 완료&lt;/font&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/font&gt;(회원번호, 호텔코드, [쿠폰 일련번호, 매장업장코드&amp;nbsp;List])&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-192">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="113" y="-17" as="offset" />
           </mxGeometry>
