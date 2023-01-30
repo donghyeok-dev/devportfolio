@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T10:03:45.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hBlnBANwsyRpdXHmXI7t" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T10:04:38.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mJ1PCJRuE6YXJH2wgm5L" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
             <mxPoint x="340" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-17" value="&lt;font color=&quot;#cc6600&quot;&gt;쿠폰 사용 예약&lt;/font&gt; ( [선택된 쿠폰 일련번호, 회원번호, 예약일자, 호텔코드, 시장코드, 룸타입 등] List)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-14">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-17" value="&lt;font color=&quot;#cc6600&quot;&gt;쿠폰 사용 예약&lt;/font&gt; ( [선택된 쿠폰 일련번호, 회원번호, 예약일자, 호텔코드, 시장코드, 룸타입 등List] )&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-14">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="82" y="-13" as="offset" />
           </mxGeometry>
@@ -121,12 +121,12 @@
             <mxPoint x="390" y="451" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-61" value="&lt;font color=&quot;#cc6600&quot;&gt;예약 쿠폰 조회&lt;/font&gt; (쿠폰 일련번호 List)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-60">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-61" value="&lt;font color=&quot;#cc6600&quot;&gt;예약 쿠폰 조회&lt;/font&gt; ([쿠폰 일련번호 List])&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-60">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="68" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-62" value="200 OK  (쿠폰명, 쿠폰 상태 등 List)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;exitX=1;exitY=0.852;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-62" value="200 OK  ( [쿠폰명, 쿠폰 상태 등 List])" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;exitX=1;exitY=0.852;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="0.0095" y="-26" relative="1" as="geometry">
             <mxPoint x="910" y="474" as="targetPoint" />
             <mxPoint x="385" y="474.0039999999999" as="sourcePoint" />
