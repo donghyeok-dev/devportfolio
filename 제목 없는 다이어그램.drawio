@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T10:00:39.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jjBOEQ1VvcWXRY5L8GBa" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T10:03:45.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hBlnBANwsyRpdXHmXI7t" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
             <mxPoint x="340" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-17" value="&lt;font color=&quot;#cc6600&quot;&gt;쿠폰 사용 예약&lt;/font&gt; (선택된 쿠폰 일련번호, 회원번호, 예약일자, 호텔코드, 시장코드, 룸타입 등 List)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-14">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-17" value="&lt;font color=&quot;#cc6600&quot;&gt;쿠폰 사용 예약&lt;/font&gt; ( [선택된 쿠폰 일련번호, 회원번호, 예약일자, 호텔코드, 시장코드, 룸타입 등] List)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-14">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="82" y="-13" as="offset" />
           </mxGeometry>
@@ -68,7 +68,7 @@
             <mxPoint x="27" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-58" value="200 OK  (쿠폰명, 쿠폰 일련번호 등 List)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;exitX=-0.2;exitY=0.769;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uAVWBllw0vdzFXxvWoM9-26">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-58" value="200 OK  ( [쿠폰명, 쿠폰 일련번호 등List] )" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;exitX=-0.2;exitY=0.769;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uAVWBllw0vdzFXxvWoM9-26">
           <mxGeometry y="19" relative="1" as="geometry">
             <mxPoint x="120" y="67" as="targetPoint" />
             <mxPoint x="373" y="66.99099999999999" as="sourcePoint" />
@@ -91,7 +91,7 @@
             <mxPoint x="910" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-127" value="&lt;font color=&quot;#cc6600&quot;&gt;객실 예약 정보&lt;/font&gt; (회원번호, CMS예약번호, 객실정보, 쿠폰 일련번호 List)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-126">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-127" value="&lt;font color=&quot;#cc6600&quot;&gt;객실 예약 정보&lt;/font&gt; (회원번호, CMS예약번호, 객실정보, [쿠폰 일련번호 List])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-126">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="-95" y="-8" as="offset" />
           </mxGeometry>
@@ -440,7 +440,7 @@
             <mxPoint x="390" y="876" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-172" value="&lt;font color=&quot;#cc0000&quot;&gt;쿠폰 취소&lt;/font&gt; (쿠폰 일련번호)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-171">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-172" value="&lt;font color=&quot;#cc0000&quot;&gt;쿠폰 취소&lt;/font&gt; ( [쿠폰 일련번호] List)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="uAVWBllw0vdzFXxvWoM9-171">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="77" y="-14" as="offset" />
           </mxGeometry>
