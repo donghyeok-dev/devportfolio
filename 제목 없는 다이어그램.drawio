@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T10:08:35.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VWQE5ObKfD7mvTuP33Sg" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T10:22:07.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XaNlfugssYcsQARXLkpn" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -592,7 +592,7 @@
           <mxGeometry x="916" y="163" width="10" height="38" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-453" value="프론트(예약실) 예약 취소" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=17;fontStyle=0;direction=west;" parent="1" vertex="1">
-          <mxGeometry y="2843" width="1120" height="371" as="geometry" />
+          <mxGeometry y="2821" width="1120" height="371" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-553" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="uAVWBllw0vdzFXxvWoM9-453" vertex="1">
           <mxGeometry x="916" y="31" width="10" height="39" as="geometry" />
