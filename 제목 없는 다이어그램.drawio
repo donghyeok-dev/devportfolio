@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:07:31.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="J1ej-bd8c0bt0URMcEH-" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:15:39.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="i865LuB-4jSbOmEWoWxL" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-26" value="Web 예약" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Verdana;fontSize=17;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry y="170" width="1125" height="370" as="geometry" />
+          <mxGeometry y="170" width="1120" height="370" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="uAVWBllw0vdzFXxvWoM9-26">
           <mxGeometry x="635" y="176" width="10" height="35" as="geometry" />
