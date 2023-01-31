@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T05:28:15.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kkpJ9fMWdJ_be82tdc7r" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T05:29:07.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ur2v1DZDFz3vESjE_M3i" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -887,10 +887,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="icKMJ_c1SCLkyprjgb4T-1" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
-          <mxGeometry x="915" y="1013" width="10" height="80.5" as="geometry" />
+          <mxGeometry x="915" y="999" width="10" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="icKMJ_c1SCLkyprjgb4T-2" value="Web 예약 취소 (2안)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=17;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry y="984" width="1120" height="361" as="geometry" />
+          <mxGeometry y="970" width="1120" height="361" as="geometry" />
         </mxCell>
         <mxCell id="icKMJ_c1SCLkyprjgb4T-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="icKMJ_c1SCLkyprjgb4T-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1020,8 +1020,8 @@
         </mxCell>
         <mxCell id="icKMJ_c1SCLkyprjgb4T-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="1280" as="sourcePoint" />
-            <mxPoint x="370" y="1280" as="targetPoint" />
+            <mxPoint x="120" y="1266" as="sourcePoint" />
+            <mxPoint x="370" y="1266" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="icKMJ_c1SCLkyprjgb4T-29" value="&lt;font color=&quot;#cc0000&quot;&gt;쿠폰 취소&lt;/font&gt; ([쿠폰 일련번호List])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" vertex="1" connectable="0" parent="icKMJ_c1SCLkyprjgb4T-28">
