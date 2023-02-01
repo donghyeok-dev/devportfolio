@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T11:02:51.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Mwunk1P9UxPBhnma7ZO3" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T11:04:14.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Fsg6d_HwikI5lemR5MAH" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1199" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -583,7 +583,7 @@
             <mxPoint x="390" y="168" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-394" value="&lt;font color=&quot;#336600&quot; style=&quot;font-size: 12px;&quot;&gt;쿠폰 사용 완료&lt;/font&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/font&gt;(회원번호, 호텔코드,객실 시장/요금코드,&amp;nbsp;[선택한 쿠폰 일련번호, 매장업장코드&amp;nbsp;List])&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-393" vertex="1" connectable="0">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-394" value="&lt;font color=&quot;#336600&quot; style=&quot;font-size: 12px;&quot;&gt;쿠폰 사용 완료&lt;/font&gt;&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/font&gt;(회원번호, 호텔코드,업장코드,&amp;nbsp;객실 시장/요금코드,&amp;nbsp;[쿠폰 일련번호 List])&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-393" vertex="1" connectable="0">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="136" y="-17" as="offset" />
           </mxGeometry>
