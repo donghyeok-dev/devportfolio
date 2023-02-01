@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T11:12:00.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pnBav_5MqcKGErroqFFl" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T11:48:22.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9K5FjeEN32LY7woyzOCz" version="20.8.13" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
-    <mxGraphModel dx="1199" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -569,7 +569,17 @@
           <mxGeometry x="916" y="442" width="10" height="38" as="geometry" />
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-348" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="uAVWBllw0vdzFXxvWoM9-313" vertex="1">
-          <mxGeometry x="916" y="346" width="10" height="39" as="geometry" />
+          <mxGeometry x="916" y="346" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="icKMJ_c1SCLkyprjgb4T-44" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;db에 쿠폰 일련번호 저장&lt;br&gt;&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uAVWBllw0vdzFXxvWoM9-313">
+          <mxGeometry x="-0.0225" y="69" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="931" y="376.99749999999995" as="sourcePoint" />
+            <mxPoint x="932" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="951" y="391.4899999999998" />
+            </Array>
+            <mxPoint x="22" y="-51" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-372" value="투숙객 쿠폰 현장(매장) 사용" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Verdana;fontSize=17;fontStyle=0;direction=west;" parent="1" vertex="1">
           <mxGeometry y="1984" width="1120" height="240" as="geometry" />
