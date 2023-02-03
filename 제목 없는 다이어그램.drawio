@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T05:05:56.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zj27TDBcwMi_dKh6jljY" version="20.8.14" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T05:07:31.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MGiY88hS6k6bchxCNbXS" version="20.8.14" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -165,9 +165,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-116" value="체크인 또는 체크아웃" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Verdana;fontColor=#333333;" parent="uAVWBllw0vdzFXxvWoM9-115" vertex="1" connectable="0">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-116" value="체크인" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Verdana;fontColor=#333333;" parent="uAVWBllw0vdzFXxvWoM9-115" vertex="1" connectable="0">
           <mxGeometry x="-0.2145" y="-2" relative="1" as="geometry">
-            <mxPoint x="65" y="-21" as="offset" />
+            <mxPoint x="30" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-117" value="사용기한 만료" style="endArrow=classic;html=1;rounded=0;fontFamily=Verdana;fontSize=15;fontColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uAVWBllw0vdzFXxvWoM9-110" target="uAVWBllw0vdzFXxvWoM9-113" edge="1">
