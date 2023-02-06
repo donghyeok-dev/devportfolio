@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:11:10.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zYRIZ0oz__f3fFhE8VBh" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T11:12:51.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WdYWF_MoCjWVTSgL8Li_" version="20.8.16" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
-    <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,7 +191,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-123" value="취소" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=15;exitX=0;exitY=0.738;exitDx=0;exitDy=0;entryX=0.963;entryY=0.763;entryDx=0;entryDy=0;fontColor=#CC0000;fillColor=#f8cecc;strokeColor=#b85450;entryPerimeter=0;exitPerimeter=0;" parent="1" source="uAVWBllw0vdzFXxvWoM9-112" target="uAVWBllw0vdzFXxvWoM9-110" edge="1">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-123" value="취소 (체크아웃 시 취소 불가)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=15;exitX=0;exitY=0.738;exitDx=0;exitDy=0;entryX=0.963;entryY=0.763;entryDx=0;entryDy=0;fontColor=#CC0000;fillColor=#f8cecc;strokeColor=#b85450;entryPerimeter=0;exitPerimeter=0;" parent="1" source="uAVWBllw0vdzFXxvWoM9-112" target="uAVWBllw0vdzFXxvWoM9-110" edge="1">
           <mxGeometry x="0.0192" y="22" relative="1" as="geometry">
             <mxPoint x="340" y="4701" as="targetPoint" />
             <mxPoint x="500" y="4580" as="sourcePoint" />
