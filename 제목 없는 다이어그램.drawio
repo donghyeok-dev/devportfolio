@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T05:07:31.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MGiY88hS6k6bchxCNbXS" version="20.8.14" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T07:01:28.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZPB0KmhLnHw6gPPyDsFK" version="20.8.16" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
             <mxPoint x="340" y="287" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-17" value="&lt;font color=&quot;#cc6600&quot;&gt;쿠폰 사용 예약&lt;/font&gt; ( [선택된 쿠폰 일련번호, 회원번호, 예약일자, 호텔코드, 시장코드, 룸타입 등List] )&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-14" vertex="1" connectable="0">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-17" value="&lt;font color=&quot;#cc6600&quot;&gt;쿠폰 사용 예약&lt;/font&gt; ( 회원번호, 예약일자, 호텔코드, 시장코드, 룸타입 [쿠폰 일련번호 List] )&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-14" vertex="1" connectable="0">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="82" y="-13" as="offset" />
           </mxGeometry>
@@ -63,7 +63,7 @@
             <mxPoint x="375" y="36.00599999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-57" value="&lt;font color=&quot;#cc6600&quot;&gt;예약 가능한 쿠폰 조회&lt;/font&gt; (회원번호, 예약일자, 호텔코드, 시장코드, 룸타입 등)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-56" vertex="1" connectable="0">
+        <mxCell id="uAVWBllw0vdzFXxvWoM9-57" value="&lt;font color=&quot;#cc6600&quot;&gt;예약 가능한 쿠폰 조회&lt;/font&gt; (회원번호, 예약기간, 호텔코드, 시장코드, 룸타입)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-56" vertex="1" connectable="0">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="27" y="-14" as="offset" />
           </mxGeometry>
@@ -214,178 +214,8 @@
             <mxPoint x="36" y="-62" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-152" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="uAVWBllw0vdzFXxvWoM9-124" vertex="1">
-          <mxGeometry x="75" y="529.5" width="10" height="80.5" as="geometry" />
-        </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-190" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="uAVWBllw0vdzFXxvWoM9-124" vertex="1">
           <mxGeometry x="75" y="1385.5" width="10" height="78.5" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-143" value="Web 예약 취소 (1안)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=17;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry y="579" width="1120" height="361" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-145" value="" style="endArrow=classic;html=1;rounded=0;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="33" as="sourcePoint" />
-            <mxPoint x="910" y="33" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-146" value="&lt;font color=&quot;#cc0000&quot;&gt;예약 객실 목록 조회&lt;/font&gt;(회원번호)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-145" vertex="1" connectable="0">
-          <mxGeometry x="0.45" y="2" relative="1" as="geometry">
-            <mxPoint x="-163" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-147" value="200 OK ([PMS예약 번호, 객실 정보 List])" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;fillColor=#ffcccc;strokeColor=#36393d;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry y="19" relative="1" as="geometry">
-            <mxPoint x="115" y="45" as="targetPoint" />
-            <mxPoint x="910" y="45" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-148" value="" style="endArrow=classic;html=1;rounded=0;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="119" y="181" as="sourcePoint" />
-            <mxPoint x="294" y="181" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-149" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 12px;&quot;&gt;예약 취소&lt;/font&gt; (CMS예약번호)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-148" vertex="1" connectable="0">
-          <mxGeometry x="0.45" y="2" relative="1" as="geometry">
-            <mxPoint x="-36" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-150" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="uAVWBllw0vdzFXxvWoM9-143" vertex="1">
-          <mxGeometry x="105" y="30" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-163" value="" style="endArrow=classic;html=1;rounded=0;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="89.5" as="sourcePoint" />
-            <mxPoint x="910" y="89.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-164" value="&lt;font color=&quot;#cc0000&quot;&gt;선택한 예약 객실 정보 조회&lt;/font&gt;(PMS예약번호)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-163" vertex="1" connectable="0">
-          <mxGeometry x="0.45" y="2" relative="1" as="geometry">
-            <mxPoint x="-163" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-165" value="200 OK (CMS예약번호, 객실 정보)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;fillColor=#ffcccc;strokeColor=#36393d;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry y="19" relative="1" as="geometry">
-            <mxPoint x="115" y="103" as="targetPoint" />
-            <mxPoint x="910" y="103" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-166" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="uAVWBllw0vdzFXxvWoM9-143" vertex="1">
-          <mxGeometry x="636" y="180" width="10" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-167" value="200 OK" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;fillColor=#ffcccc;strokeColor=#36393d;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry y="19" relative="1" as="geometry">
-            <mxPoint x="120" y="241" as="targetPoint" />
-            <mxPoint x="630" y="239" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-168" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="uAVWBllw0vdzFXxvWoM9-143" vertex="1">
-          <mxGeometry x="915" y="243" width="10" height="107" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-169" value="" style="endArrow=classic;html=1;rounded=0;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="646" y="245" as="sourcePoint" />
-            <mxPoint x="910" y="245" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-170" value="&lt;font color=&quot;#cc0000&quot;&gt;예약취소 Callback&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-169" vertex="1" connectable="0">
-          <mxGeometry x="0.45" y="2" relative="1" as="geometry">
-            <mxPoint x="-77" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-142" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="uAVWBllw0vdzFXxvWoM9-143" vertex="1">
-          <mxGeometry x="375" y="281.5" width="10" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-151" value="200 OK" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry x="0.0038" y="-25" relative="1" as="geometry">
-            <mxPoint x="910" y="309" as="targetPoint" />
-            <mxPoint x="390" y="309" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-173" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;db에서 객실에 연결된 &lt;br&gt;쿠폰 리스트 조회&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.037;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" parent="uAVWBllw0vdzFXxvWoM9-143" target="uAVWBllw0vdzFXxvWoM9-168" edge="1">
-          <mxGeometry x="-0.0752" y="63" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="927" y="245.99749999999995" as="sourcePoint" />
-            <mxPoint x="927" y="291" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="947" y="260.49" />
-            </Array>
-            <mxPoint x="22" y="-47" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-174" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Exists CMS예약번호?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Verdana;fontSize=15;fontColor=#000000;" parent="uAVWBllw0vdzFXxvWoM9-143" vertex="1">
-          <mxGeometry x="293" y="157" width="230" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-176" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="uAVWBllw0vdzFXxvWoM9-143" source="uAVWBllw0vdzFXxvWoM9-174" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="201" as="sourcePoint" />
-            <mxPoint x="630" y="182" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-177" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-176" vertex="1" connectable="0">
-          <mxGeometry x="0.45" y="2" relative="1" as="geometry">
-            <mxPoint x="-46" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-180" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontFamily=Verdana;fontSize=12;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="uAVWBllw0vdzFXxvWoM9-143" source="uAVWBllw0vdzFXxvWoM9-174" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="201" as="sourcePoint" />
-            <mxPoint x="120" y="221" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="262" y="221" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-181" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Verdana;fontColor=#000000;" parent="uAVWBllw0vdzFXxvWoM9-180" vertex="1" connectable="0">
-          <mxGeometry x="0.0489" y="-3" relative="1" as="geometry">
-            <mxPoint x="158" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-182" value="&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;현장 예약 취소 불가&lt;/font&gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Verdana;fontColor=#000000;" parent="uAVWBllw0vdzFXxvWoM9-180" vertex="1" connectable="0">
-          <mxGeometry x="0.2378" y="-4" relative="1" as="geometry">
-            <mxPoint x="11" y="-6" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-187" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="uAVWBllw0vdzFXxvWoM9-143" vertex="1">
-          <mxGeometry x="105" y="81" width="10" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-188" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="uAVWBllw0vdzFXxvWoM9-143" vertex="1">
-          <mxGeometry x="105" y="178" width="10" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="icKMJ_c1SCLkyprjgb4T-31" value="&amp;nbsp;db에서 객실에 연결된&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;쿠폰 일련번호 리스트 삭제" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.037;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry x="-0.0752" y="63" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="926.63" y="311.49749999999995" as="sourcePoint" />
-            <mxPoint x="924.9999999999999" y="344.8800000000001" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="946.63" y="325.99" />
-            </Array>
-            <mxPoint x="22" y="-47" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="icKMJ_c1SCLkyprjgb4T-34" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" parent="uAVWBllw0vdzFXxvWoM9-143" edge="1">
-          <mxGeometry y="19" relative="1" as="geometry">
-            <mxPoint x="910" y="261" as="targetPoint" />
-            <mxPoint x="410" y="261" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="icKMJ_c1SCLkyprjgb4T-39" value="추후 검토" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0000;" parent="uAVWBllw0vdzFXxvWoM9-143" vertex="1">
-          <mxGeometry x="410" y="241" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-171" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="910" y="863" as="sourcePoint" />
-            <mxPoint x="390" y="863" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAVWBllw0vdzFXxvWoM9-172" value="&lt;font color=&quot;#cc0000&quot;&gt;쿠폰 취소&lt;/font&gt; ([쿠폰 일련번호List])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-171" vertex="1" connectable="0">
-          <mxGeometry x="0.45" y="2" relative="1" as="geometry">
-            <mxPoint x="77" y="-14" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-313" value="예약&amp;nbsp;객실 체크인" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Verdana;fontSize=17;fontStyle=0;direction=west;" parent="1" vertex="1">
           <mxGeometry y="1435" width="1120" height="509" as="geometry" />
@@ -919,7 +749,7 @@
         <mxCell id="icKMJ_c1SCLkyprjgb4T-1" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="915" y="999" width="10" height="80.5" as="geometry" />
         </mxCell>
-        <mxCell id="icKMJ_c1SCLkyprjgb4T-2" value="Web 예약 취소 (2안)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=17;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="icKMJ_c1SCLkyprjgb4T-2" value="Web 예약 취소" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=17;fontStyle=0" parent="1" vertex="1">
           <mxGeometry y="970" width="1120" height="361" as="geometry" />
         </mxCell>
         <mxCell id="icKMJ_c1SCLkyprjgb4T-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="icKMJ_c1SCLkyprjgb4T-2" edge="1">
@@ -1083,12 +913,6 @@
         <mxCell id="icKMJ_c1SCLkyprjgb4T-29" value="&lt;font color=&quot;#cc0000&quot;&gt;쿠폰 취소&lt;/font&gt; ([쿠폰 일련번호List])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="icKMJ_c1SCLkyprjgb4T-28" vertex="1" connectable="0">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="-61" y="-11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="icKMJ_c1SCLkyprjgb4T-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="840" as="sourcePoint" />
-            <mxPoint x="410" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
