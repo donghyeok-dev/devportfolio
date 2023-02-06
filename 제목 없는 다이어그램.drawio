@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:25:54.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AMJ_Jcr8aKuw68iCIQIk" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T11:42:44.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BufIUDuaixZdKCdesyax" version="20.8.16" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-57" value="&lt;font color=&quot;#cc6600&quot;&gt;예약 가능한 쿠폰 조회&lt;/font&gt; (회원번호, 예약기간, 호텔코드, 시장/요금코드, 객실타입)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="uAVWBllw0vdzFXxvWoM9-56" vertex="1" connectable="0">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
-            <mxPoint x="27" y="-14" as="offset" />
+            <mxPoint x="36" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uAVWBllw0vdzFXxvWoM9-58" value="200 OK  ( [예약 가능 쿠폰 정보 List])" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;exitX=-0.2;exitY=0.769;exitDx=0;exitDy=0;exitPerimeter=0;" parent="uAVWBllw0vdzFXxvWoM9-26" edge="1">
