@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T10:26:18.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="H_D2Psg6J_A_cL6SXSsK" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T10:27:42.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5s_HGjqa4v7dweI4CAvT" version="20.8.16" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -614,7 +614,7 @@
         <mxCell id="4isxpRwuGd6mstdwEFec-100" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="4isxpRwuGd6mstdwEFec-66">
           <mxGeometry x="916" y="255" width="10" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="4isxpRwuGd6mstdwEFec-101" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;db에 쿠폰 일련번호&lt;br&gt;추가 저장&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="4isxpRwuGd6mstdwEFec-66">
+        <mxCell id="4isxpRwuGd6mstdwEFec-101" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;db에 추가한 &lt;br&gt;쿠폰 일련번호&amp;nbsp;저장&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="4isxpRwuGd6mstdwEFec-66">
           <mxGeometry x="-0.0225" y="59" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="931" y="285.99749999999995" as="sourcePoint" />
             <mxPoint x="932" y="318" as="targetPoint" />
@@ -722,7 +722,7 @@
             <mxPoint x="77" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4isxpRwuGd6mstdwEFec-120" value="&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;db에서 취소한&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;쿠폰 일련번호만 삭제&lt;/span&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="4isxpRwuGd6mstdwEFec-102">
+        <mxCell id="4isxpRwuGd6mstdwEFec-120" value="&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;db에서 객실에 연결된&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;쿠폰 일련번호 전부 삭제&lt;/span&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="4isxpRwuGd6mstdwEFec-102">
           <mxGeometry x="-0.0225" y="75" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="925" y="315.49749999999995" as="sourcePoint" />
             <mxPoint x="926" y="347.5" as="targetPoint" />
