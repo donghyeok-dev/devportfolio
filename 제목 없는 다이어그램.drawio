@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T09:46:34.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="z2pw1IomTeNN2-fmj0lO" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T09:47:16.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="clDgzFGcBR6KZeROn6wQ" version="20.8.16" type="github">
   <diagram name="페이지-1" id="i2_iW8WWWB51VXID4rfu">
     <mxGraphModel dx="1259" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -421,7 +421,7 @@
             <mxPoint x="910" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="icKMJ_c1SCLkyprjgb4T-16" value="&lt;font color=&quot;#cc0000&quot;&gt;예약취소 Callback&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="icKMJ_c1SCLkyprjgb4T-15" vertex="1" connectable="0">
+        <mxCell id="icKMJ_c1SCLkyprjgb4T-16" value="예약취소 Callback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;fontSize=12;" parent="icKMJ_c1SCLkyprjgb4T-15" vertex="1" connectable="0">
           <mxGeometry x="0.45" y="2" relative="1" as="geometry">
             <mxPoint x="-77" y="-7" as="offset" />
           </mxGeometry>
@@ -468,14 +468,14 @@
         <mxCell id="icKMJ_c1SCLkyprjgb4T-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="icKMJ_c1SCLkyprjgb4T-2" vertex="1">
           <mxGeometry x="106" y="238" width="10" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="icKMJ_c1SCLkyprjgb4T-33" value="&amp;nbsp;db에서 객실에 연결된&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;쿠폰 일련번호 리스트 삭제" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.037;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" parent="icKMJ_c1SCLkyprjgb4T-2" edge="1">
-          <mxGeometry x="-0.0752" y="63" width="50" height="50" relative="1" as="geometry">
+        <mxCell id="icKMJ_c1SCLkyprjgb4T-33" value="&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;db에서 객실에 연결된&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;쿠폰 일련번호 리스트 삭제&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.037;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" parent="icKMJ_c1SCLkyprjgb4T-2" edge="1">
+          <mxGeometry x="-0.0752" y="73" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="926.6300000000001" y="391.61749999999984" as="sourcePoint" />
             <mxPoint x="925" y="425" as="targetPoint" />
             <Array as="points">
               <mxPoint x="946.63" y="406.1100000000001" />
             </Array>
-            <mxPoint x="22" y="-47" as="offset" />
+            <mxPoint x="26" y="-55" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="icKMJ_c1SCLkyprjgb4T-41" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" parent="icKMJ_c1SCLkyprjgb4T-2" edge="1">
