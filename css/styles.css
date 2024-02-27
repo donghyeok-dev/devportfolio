@@ -469,7 +469,9 @@ footer {
 }
 .project-image {
   float: left;
+  width: 250px;
   height: 250px;
+  text-align: center;
   line-height: 250px;
 }
 .project-image img {
@@ -1037,4 +1039,37 @@ my-intro-box {
   display: block;
   font-weight: bold;
   margin-top: 20px;
+}
+
+.project-list-item{
+  margin-bottom: 30px;
+}
+
+
+.more-project-text {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #217dbb;
+  cursor: pointer;
+}
+
+.infobox {
+  position: relative;
+  max-width: 900px;
+  height: 200px;
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.item {
+  text-align: left;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-weight: bold;
 }
